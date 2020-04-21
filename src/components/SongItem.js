@@ -9,6 +9,7 @@ const SongItem = (props) => {
                     <li>{props.artist}</li>
                 </ul>
             </li>
+            <a href={props.preview} target="_blank" rel="noopener noreferrer"><img src={props.image} alt="Song Artwork"></img></a>
         </div>
     )
 }

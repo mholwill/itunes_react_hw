@@ -22,7 +22,7 @@ export default class SongsContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="app-text">
         <h2>Top 20 ITunes Chart</h2>
         <SongList songs={this.state.songs}></SongList>
       </div>

@@ -37,4 +37,18 @@
   }
 }
 
+.app-text {
+  text-align: center;
+  align-items: center;
+}
+
+.app-text > h2 {
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+
+
+
+
 
